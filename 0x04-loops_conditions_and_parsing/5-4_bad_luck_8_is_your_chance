@@ -13,5 +13,5 @@ while [ "$COUNTER" -le 10 ]; do
     else
 	echo "Best School"
     fi
-    (( COUNTER+1 ))|| true
+    (( COUNTER++ ))
 done
